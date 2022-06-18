@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/_20dp"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/_100dp"
+        android:layout_height="@dimen/_100dp"
+        android:src="@drawable/google"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10dp"
+        android:layout_margin="@dimen/_5dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="Form Login"/>
+
+    <EditText
+        android:layout_margin="@dimen/_5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10dp"
+        android:hint="Username"/>
+
+    <EditText
+        android:layout_margin="@dimen/_5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10dp"
+        android:inputType="textPassword"
+        android:hint="Password"/>
+
+    <Button
+        android:layout_margin="@dimen/_20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10dp"
+        android:layout_margin="@dimen/_5dp"
+        android:textSize="10sp"
+        android:textAlignment="center"
+        android:text="You need account? Sign up"/>
+
+
+</LinearLayout>
